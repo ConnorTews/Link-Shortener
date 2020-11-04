@@ -14,6 +14,9 @@ $domainName = "https://domain.com/";
 // Length of the short link
 $long = "10";
 
+// Website Image 
+$websiteImage = "";
+
 // Allow new users
 // "yes" / "no"
 $newusers = "no";
