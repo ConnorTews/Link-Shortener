@@ -19,4 +19,4 @@ $websiteImage = "";
 
 // Allow new users
 // "yes" / "no"
-$newusers = "no";
+$newusers = "yes";

@@ -11,5 +11,13 @@
     <input type="password" name="password" id="password">
     <button type="submit" name="login-user">Login</button>
   </form>
+  <?php
+  require '../settings.php';
+  if ($newusers === "yes") {
+    ?>
+    <a href="../newuser">Signup</a>
+    <?php
+  }
+  ?>
 </body>
 </html>

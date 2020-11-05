@@ -6,7 +6,7 @@ foreach ($fileList as $filename) {
   $longlink = $data['longlink'];
   $shortlink = $data['shortlink'];
   $id = $data['id'];
-  echo  '<tr><th><a target="_blank" href="' . $shortlink . '">' . $id . '</a><br></th><th><input type="text" name="' . $filename . '" id="' . $id . '" value="' . $shortlink . '"><button type="button" onclick="copy' . $id . '()">Copy Link</button></th>
+  echo  '<tr><th>'.$longlink.'</th><th><a target="_blank" href="' . $shortlink . '">' . $id . '</a><br></th><th><input type="text" name="' . $filename . '" id="' . $id . '" value="' . $shortlink . '"><button type="button" onclick="copy' . $id . '()">Copy Link</button></th>
   <script> 
   function copy' . $id . '() { 
     var copyText = document.getElementById("' . $id . '");

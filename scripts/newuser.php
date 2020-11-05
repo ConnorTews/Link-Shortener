@@ -38,4 +38,6 @@ if (!$newusers == "yes") {
   ";
   fwrite($newUser, $txtUser);
   fclose($newUser);
+  header("Location: ../");
+  exit();
 }
